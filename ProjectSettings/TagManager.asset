@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Hoe
+  - Chicken
+  - Pig
+  - Chick
+  - Door
+  - Scan
+  - Weat
+  - Carrot
+  - Corn
+  - Store
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Front
+  - Water
+  - UI
+  - BackGround
+  - InfoUI
+  - Sell
+  - Use
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Front
+    uniqueID: 847055851
+    locked: 0
