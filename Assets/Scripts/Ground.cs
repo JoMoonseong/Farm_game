@@ -42,11 +42,5 @@ public class Ground : MonoBehaviour
 
     }
 
-    public void FF()
-    {
-        if (Instantiate(other2))
-        {
-            Dug = true;
-        }
-     }
+
 }

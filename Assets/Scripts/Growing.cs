@@ -8,9 +8,9 @@ public class Growing : MonoBehaviour
     public float set = 0;
     float maxSetValue = 5.0f;
 
-    public GameObject Test0;
-    public GameObject Test1;
-    public GameObject Test2;
+    public GameObject First;
+    public GameObject Second;
+    public GameObject Third;
 
     public BoxCollider Area;
     void Start()
@@ -34,7 +34,6 @@ public class Growing : MonoBehaviour
         if (maxGrow == false)
         {
             set += 0.01f;
-            Debug.Log("ÇÃ·¯½º");
             if (set >= maxSetValue)
             {
                 maxGrow = true;
@@ -48,13 +47,13 @@ public class Growing : MonoBehaviour
         if (set > 2.0f)
         {
             
-            Test1.SetActive(true);
+            Second.SetActive(true);
             
         }
         if (set > 3.0f)
         {
-            Test1.SetActive(false);
-            Test2.SetActive(true);
+            Second.SetActive(false);
+            Third.SetActive(true);
             Area.enabled = true;
         }
     }

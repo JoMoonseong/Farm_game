@@ -203,7 +203,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             Scan_Seed = true;
-            Debug.Log("이미 씨뿌림 ㅅㄱ");
 
             return;
 
